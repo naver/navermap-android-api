@@ -4,4 +4,8 @@
     <drawable name="black_color">#ff000000</drawable>
     <drawable name="selected_list_color">#ff32A800</drawable>
     <drawable name="default_list_color">#ffffffff</drawable>
+
+    <color name="colorPrimaryDark">#00BFA5</color>
+    <color name="colorPrimary">#1DE9B6</color>
+    <color name="colorAccent">#FF40C1</color>
 </resources>
