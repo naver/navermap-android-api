@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+<TextView
+android:id="@+id/textView1"
+android:layout_width="wrap_content"
+android:layout_height="40dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginLeft="15dp"
+android:layout_marginTop="16dp"
+android:textSize="20dp"
+android:text="전화번호 : " />
+<EditText
+android:id="@+id/edtPhone"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignBottom="@+id/textView1"
+android:layout_alignTop="@+id/textView1"
+android:layout_toRightOf="@+id/textView1"
+android:ems="10"
+android:inputType="phone" />
+<TextView
+android:id="@+id/textView2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignLeft="@+id/textView1"
+android:layout_below="@+id/textView1"
+android:layout_marginTop="13dp"
+android:textSize="20dp"
+android:text="메 시 지 : " />
+<EditText
+android:id="@+id/edtMessage"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="115dp"
+android:layout_marginTop="60dp"
+android:ems="10" >
+</EditText>
+<Button
+android:id="@+id/btnSend"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignLeft="@+id/edtMessage"
+android:layout_below="@+id/edtMessage"
+android:layout_marginLeft="14dp"
+android:text="위치전송" />
+<com.nhn.android.maps.NMapView 
+android:layout_width="fill_parent" 
+android:layout_height="330dp" 
+android:layout_marginTop="160dp"
+android:text="@string/app_name"
+android:id="@+id/mapView"/>
+</RelativeLayout>

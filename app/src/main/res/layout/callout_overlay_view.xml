@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<RelativeLayout 
+	    android:id="@+id/callout_overlay"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="13.33dp"
+		android:layout_marginRight="13.33dp"
+		android:paddingLeft="10.67dp"
+		android:paddingRight="10.67dp"
+		android:paddingTop="10.67dp"
+		android:paddingBottom="22dp"
+		android:background="@drawable/pin_ballon_bg"
+		android:clickable="true">
+		
+	    <LinearLayout
+	        android:id="@+id/callout_upper"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+	        android:orientation="horizontal"
+			android:gravity="center"
+			android:duplicateParentState="true">
+	        
+			<TextView 
+			    android:id="@+id/callout_text"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:includeFontPadding="false"
+				android:text="..."
+				android:textSize="14dp"
+				android:textColor="@color/callout_textcolor"
+				android:shadowRadius="1"
+				android:shadowDy="1"
+				android:shadowColor="#000"
+				android:duplicateParentState="true"
+				/>
+		    
+			<!-- 화살표 아이콘 -->
+		    <ImageView
+		        android:id="@+id/callout_rightArrow"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="3.33dp"
+				android:background="@drawable/pin_ballon_arrow"
+				/>
+		    
+		</LinearLayout>
+		
+	</RelativeLayout>
+</merge>
+ 
+

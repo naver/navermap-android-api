@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NMapViewer!</string>
+    <string name="app_name">NMapViewer</string>
+    <string name="str_done">완료</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/action_revert"
+		android:icon="@android:drawable/ic_menu_revert"
+		android:title="초기화"
+		android:alphabeticShortcut="c"
+		android:showAsAction="ifRoom"/>
+	<item android:id="@+id/action_map"
+		android:icon="@android:drawable/ic_menu_mapmode"
+		android:title="지도보기"
+		android:showAsAction="ifRoom"
+		android:checkableBehavior="all">
+		<menu>
+			<group>
+				<item android:id="@+id/action_vector"
+					android:title="일반지도"
+					android:alphabeticShortcut="m"
+					android:checkable="true"
+					android:checked="false"/>
+				<item android:id="@+id/action_satellite"
+					android:title="위성지도"
+					android:alphabeticShortcut="s"
+					android:checkable="true"
+					android:checked="false"/>
+				<item android:id="@+id/action_traffic"
+					android:title="실시간교통"
+					android:alphabeticShortcut="t"
+					android:checkable="true"
+					android:checked="false"/>
+				<item android:id="@+id/action_bicycle"
+					android:title="자전거지도"
+					android:alphabeticShortcut="b"
+					android:checkable="true"
+					android:checked="false"/>
+                <item android:id="@+id/action_alpha_layer"
+                    android:title="투명레이어지도"
+                    android:alphabeticShortcut="a"
+                    android:checkable="true"
+                    android:checked="false"/>
+			</group>
+		</menu>
+	</item>
+	<item android:id="@+id/action_zoom"
+		android:icon="@android:drawable/ic_menu_zoom"
+		android:title="Zoom Controls"
+		android:alphabeticShortcut="z"
+		android:showAsAction="ifRoom"/>
+	<item android:id="@+id/action_my_location"
+		android:icon="@android:drawable/ic_menu_zoom"
+		android:title="내 위치"
+		android:alphabeticShortcut="l"
+		android:showAsAction="ifRoom"/>
+	<item android:id="@+id/action_test"
+		android:icon="@android:drawable/ic_menu_more"
+		android:title="지도보기"
+		android:showAsAction="ifRoom">
+		<menu>
+			<group>
+				<item android:id="@+id/action_new_activity"
+					android:title="New Activity"
+					android:alphabeticShortcut="n"/>
+				<item android:id="@+id/action_visible_bounds"
+					android:title="Test Visible Bounds"
+					android:alphabeticShortcut="v"/>
+				<item android:id="@+id/action_poi_data"
+					android:title="마커 표시"
+					android:alphabeticShortcut="p"/>
+				<item android:id="@+id/action_path_data"
+					android:title="경로선 표시"
+					android:alphabeticShortcut="t"/>
+				<item android:id="@+id/action_floating_data"
+					android:title="직접 지정"
+					android:alphabeticShortcut="f"/>
+				<item android:id="@+id/action_scale_factor"
+					android:title="지도 크게보기"
+					android:alphabeticShortcut="s"/>
+				<item android:id="@+id/action_auto_rotate"
+					android:title="지도 회전"
+					android:alphabeticShortcut="t"/>
+			</group>
+		</menu>
+	</item>
+	<item android:id="@+id/action_navermap"
+		android:title="네이버 지도앱 실행"
+		android:alphabeticShortcut="m"
+		android:showAsAction="ifRoom"/>
+</menu>

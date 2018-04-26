@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="NMapView">
+		<attr name="blankTileImageId" format="integer"/>
+	</declare-styleable>
+	
+	<declare-styleable name="NNMapView_Layout">
+	</declare-styleable>	
+</resources>
+

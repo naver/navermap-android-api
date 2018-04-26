@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Theme.NoShadow" parent="android:style/Theme.Light.NoTitleBar">
+		<item name="android:windowContentOverlay">@android:color/transparent</item> 
+    </style>
+
+	<style name="App.Theme" parent="android:style/Theme.Light.NoTitleBar"/>
+</resources>
