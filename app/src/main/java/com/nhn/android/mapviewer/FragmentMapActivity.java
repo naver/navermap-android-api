@@ -29,7 +29,7 @@ public class FragmentMapActivity extends FragmentActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        setContentView(R.layout.framents);
+        setContentView(R.layout.fragments);
         
         mMapView = (NMapView)findViewById(R.id.mapView);
         
