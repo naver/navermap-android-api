@@ -20,8 +20,7 @@ dependencies {
 
 Q&A
 ==
-- 네이버 개발자 포럼 [http://forum.developers.naver.com/]
-- 기타 이용문의 [https://www.ncloud.com/support/question/service] 
+- https://www.ncloud.com/support/question/service
 
 
 License
